@@ -21,7 +21,8 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/react-app/static/media"
             ],
             "styles": [
               "src/styles.css"
@@ -62,7 +63,7 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ReactInAngular10:build"
+            "browserTarget": "ReactInAngular10:build",
           },
           "configurations": {
             "production": {
@@ -85,7 +86,8 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/react-app/static/media"
             ],
             "styles": [
               "src/styles.css"
