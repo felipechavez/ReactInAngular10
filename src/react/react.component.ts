@@ -5,18 +5,16 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './react.component.html'
 })
 
-export class ReactComponent extends HTMLElement implements OnInit{
+export class ReactComponent implements OnInit{
 
   ngOnInit() : void {
     const scriptOne = document.createElement('script');
-    scriptOne.src = './../assets/static/js/main.e9351f25.js'; 
+    scriptOne.src = './../assets/static/js/main.7676775a.js'; 
     document.body.appendChild(scriptOne);
     
     const scriptTwo = document.createElement('script');
-    scriptTwo.src = './../assets/static/js/453.894ab83c.chunk.js';
+    scriptTwo.src = './../assets/static/js/453.6c1e6fa8.chunk.js';
     document.body.appendChild(scriptTwo);        
   }
 
 }
-
-window.customElements.define('root-app2', ReactComponent);
